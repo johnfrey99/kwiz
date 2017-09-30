@@ -1,0 +1,9 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation libs.kotlin.stdlib
+    implementation libs.rxjava.kotlin
+
+    testImplementation libs.kotlin.test
+}
+
